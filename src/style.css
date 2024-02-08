@@ -131,76 +131,6 @@ h2 {
     padding: 20px;
 }
 
-/* Small devices (tablets) */
-@media screen and (min-width: 576px) {
-    html {
-        font-size: 16px;
-    }
-
-    #pricingBoxes {
-        display: block;
-    }
-    
-    .pricingBox {
-        width: 100%;
-    }
-  }
-  
-  /* Medium devices (laptops) */
-  @media screen and (min-width: 768px) {
-
-    #heroSection {
-        display: flex;
-        max-width: 800px;
-        margin: 0 auto 48px auto;
-    }
-
-    #pricingSection {
-        max-width: 800px;
-        margin: 48px auto;
-    }
-
-    .sectionHeading {
-        text-align: center;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
-    .sectionSubtitle {
-        text-align: center;
-        margin: 8px auto 48px auto;
-        max-width: 800px;
-    }
-
-    #pricingBoxes {
-        display: flex;
-    }
-    
-    .pricingBox {
-        width: 33.33%;
-    }
-  }
-  
-  /* Large devices (desktops) */
-  @media screen and (min-width: 992px) {
-    
-  }
-  
-  /* Extra large devices (large desktops) */
-  @media screen and (min-width: 1200px) {
-    
-  }
-
-
-/* 
-
-
-
-
-
-
-
-
 .service {
     font-size: 14px;
     font-weight: 500;
@@ -299,9 +229,89 @@ h2 {
 }
 
 #experience {
-    max-width: 1060px;
+    max-width: 500px;
     margin: 48px auto;
 }
+
+/* Small devices (tablets) */
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+
+    #pricingBoxes {
+        display: block;
+    }
+    
+    .pricingBox {
+        width: 100%;
+    }
+
+   
+  }
+  
+  /* Medium devices (laptops) */
+  @media screen and (min-width: 768px) {
+
+    #heroSection {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto 48px auto;
+    }
+
+    #pricingSection {
+        max-width: 800px;
+        margin: 48px auto;
+    }
+
+    .sectionHeading {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .sectionSubtitle {
+        text-align: center;
+        margin: 8px auto 48px auto;
+        max-width: 800px;
+    }
+
+    #pricingBoxes {
+        display: flex;
+    }
+    
+    .pricingBox {
+        width: 33.33%;
+    }
+
+    #experience {
+        max-width: 800px;
+        margin: 48px auto;
+    }
+
+  }
+  
+  /* Large devices (desktops) */
+  @media screen and (min-width: 992px) {
+    
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+    
+  }
+
+
+/* 
+
+
+
+
+
+
+
+
+
 
 #experienceCards {
     display: flex;
