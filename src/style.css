@@ -1,6 +1,6 @@
+/* Base styles (extra small devices - mobile) */
 html {
-    font-size: 16px;
-    
+    font-size: 14px;
 }
 
 body {
@@ -36,13 +36,12 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 32px;
-    
+    line-height: 32px;   
 }
 
 #heroSection {
     display: flex;
-    max-width: 1060px;
+    max-width: 500px;
     margin: 0 auto 48px auto;
 }
 
@@ -53,21 +52,14 @@ h2 {
 
 #heroImageWrapper {
     width: 50%;
-    
 }
 
 #heroImage {
     width: 100%;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    /* border-top-right-radius: 100px;
-    border-top-left-radius: 100px; */
+    /* border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px; */
     padding-top: 100px;
 }
-
-/* #heroWrapper img {
-    border-radius: 100px;
-} */
 
 .smallText {
     font-family: 'Inter', sans-serif;
@@ -92,13 +84,11 @@ h2 {
     line-height: 19px;
     color: #fff;
     margin-top: 20px;
-
 }
 
 #pricingSection {
-    max-width: 1060px;
+    max-width: 500px;
     margin: 48px auto;
-
 }
 
 .overTitle {
@@ -114,22 +104,23 @@ h2 {
 
 .sectionHeading {
     text-align: center;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .sectionSubtitle {
     text-align: center;
     margin: 8px auto 48px auto;
-    max-width: 700px;
+    max-width: 500px;
 }
 
 #pricingBoxes {
-    display: flex;
+    display: block;
 }
 
 .pricingBox {
-    width: 33.33%;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .card {
@@ -138,6 +129,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 6px 2px 25px -9px #0000001A;
     padding: 20px;
+    text-align: center;
 }
 
 .service {
@@ -176,12 +168,6 @@ h2 {
 
 .serviceBenefits {
     padding: 0;
-    /* list-style-type: none;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #666666; */
 }
 
 .serviceBenefits li {
@@ -244,142 +230,54 @@ h2 {
 }
 
 #experience {
-    max-width: 1060px;
+    max-width: 500px;
     margin: 48px auto;
 }
 
 #experienceCards {
-    display: flex;
+    display: block;
     margin-bottom: 20px;
-    /* padding: 20px; */
-    /* width: 300px; */
 }
-
-.expCard {
-    /* width: 33.33%; */
-    background-color: #ffffff;
-    /* margin: 0 auto; */
-    border-radius: 10px;
-    box-shadow: 6px 2px 25px -9px #0000001A;
-    padding: 20px;
-    /* margin-left: 190px; */
-    /* margin-right: 190px; */
-    /* width: 300px; */
-    /* margin: 0 10px; */
-}
-
-/* .card2 {
-    width: 33.33%;
-    background-color: #ffffff;
-    margin: 10px 100px;
-    border-radius: 10px;
-    box-shadow: 6px 2px 25px -9px #0000001A;
-    padding: 20px;
-}
-
-.card3 {
-    width: 33.33%;
-    background-color: #ffffff;
-    margin: 10px 100px;
-    border-radius: 10px;
-    box-shadow: 6px 2px 25px -9px #0000001A;
-    padding: 20px;
-} */
-
-.role {
-    color: #000;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-}
-
-.expDescription {
-    /* margin-top: 4px; */
-    color: #55206D;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-}
-
-
-/* .myProjects {
-    display: flex;
-} */
 
 #projects {
-    max-width: 1060px;
+    max-width: 500px;
     margin: 48px auto;
 }
 
 .myProjects {
     margin: 0 auto; 
-    /* display: flex; */
-    /* max-width: 1060px;
-    margin: 48px auto;  */
-
 }
 
 .proj1 {
     display: flex;
-    /* margin-left: 3px; */
-    /* margin-right: 100px; */
-    /* width: 33px; */
-    /* margin: 0 auto; */
     margin-top: 30px;
-    /* margin-bottom: 20px; */
 }
 
-/* .proj2 {
-    display: flex;
-    /* margin-top: 10px; 
-    margin-bottom: 20px; 
-}*/
-
-/* .proj3 {
-    display: flex;
-    /* margin-top: 10px; 
-    margin-bottom: 20px;
-} */
-
 .rectangle {
-    /* width: 50%; */
     height: 160px;
-    /* margin: 0 auto; */
-    /* margin-left: 450px; */
 }
 
 .proj {
-    /* width: 50%; */
     margin-left: 20px;
 }
 
 .projName {
-    
     color: #291854;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    
+    line-height: normal;   
 }
 
 .projDescription {
-    width: 880px;
+    width: 500px;
     color: #55206D;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     margin-top: 10px;
 }
 
@@ -413,6 +311,126 @@ h2 {
     font-size: 12px;
     line-height: 18px;
 }
+
+/* Small devices (tablets) */
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+
+    #pricingBoxes {
+        display: block;
+    }
+    
+    .pricingBox {
+        width: 100%;
+    }
+
+    #experienceCards {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .expCard {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 6px 2px 25px -9px #0000001A;
+        padding: 20px;
+    }
+
+    .role {
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+
+    .expDescription {
+    
+        color: #55206D;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+
+   
+   
+  }
+  
+  /* Medium devices (laptops) */
+  @media screen and (min-width: 768px) {
+
+    #heroSection {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto 48px auto;
+    }
+
+    #pricingSection {
+        max-width: 800px;
+        margin: 48px auto;
+    }
+
+    .sectionHeading {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .sectionSubtitle {
+        text-align: center;
+        margin: 8px auto 48px auto;
+        max-width: 800px;
+    }
+
+    #pricingBoxes {
+        display: flex;
+    }
+    
+    .pricingBox {
+        width: 33.33%;
+    }
+
+    #experience {
+        max-width: 800px;
+        margin: 48px auto;
+    }
+
+    #projects {
+        max-width: 800px;
+        margin: 48px auto;
+    }
+
+    .projDescription {
+        width: 800px;
+
+    }
+
+  }
+  
+  /* Large devices (desktops) */
+  @media screen and (min-width: 992px) {
+    
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+    
+  }
+
+
+/* 
+
+
+ */
 
     
     
