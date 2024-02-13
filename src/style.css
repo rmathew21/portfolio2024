@@ -249,7 +249,7 @@ h2 {
 }
 
 .proj1 {
-    display: flex;
+    display: block;
     margin-top: 30px;
 }
 
@@ -257,9 +257,9 @@ h2 {
     height: 160px;
 }
 
-.proj {
+/* .proj {
     margin-left: 20px;
-}
+} */
 
 .projName {
     color: #291854;
@@ -271,7 +271,7 @@ h2 {
 }
 
 .projDescription {
-    width: 500px;
+    width: 400px;
     color: #55206D;
     font-family: Inter;
     font-size: 16px;
@@ -279,6 +279,8 @@ h2 {
     font-weight: 400;
     line-height: 24px; 
     margin-top: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .last {
@@ -361,6 +363,10 @@ h2 {
         line-height: 24px; 
     }
 
+    .proj1 {
+        display: flex;
+        margin-top: 30px;
+    }
    
    
   }
@@ -409,10 +415,14 @@ h2 {
         margin: 48px auto;
     }
 
-    .projDescription {
+    .proj {
+        margin-left: 40px;
+} 
+
+    /* .projDescription {
         width: 800px;
 
-    }
+    } */
 
   }
   
