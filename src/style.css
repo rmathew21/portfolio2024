@@ -271,7 +271,7 @@ h2 {
 }
 
 .projDescription {
-    width: 400px;
+    width: 300px;
     color: #55206D;
     font-family: Inter;
     font-size: 16px;
@@ -367,7 +367,10 @@ h2 {
         display: flex;
         margin-top: 30px;
     }
-   
+
+    .projDescription {
+        width: 500px;
+    }
    
   }
   
